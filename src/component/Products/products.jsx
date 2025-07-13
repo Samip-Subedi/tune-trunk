@@ -96,7 +96,7 @@ const Products = ({ match }) => {
         <Loading />
       ) : (
         <>
-          <MetaData title="Products | Eyewear Collection" />
+          <MetaData title="Products | music Collection" />
           <Header />
           
           <div className="products-container">
@@ -136,7 +136,7 @@ const Products = ({ match }) => {
               <aside className={`product-sidebar ${sidebarOpen ? "open" : ""}`}>
                 <div className="sidebar-header">
                   <h3>Filters</h3>
-                  <button className="close-sidebar" onClick={toggleSidebar}>×</button>
+                  <button className="close-sidebar" onClick={toggleSidebar}>Paused Screen ×</button>
                 </div>
                 
                 <div className="sidebar-section">
